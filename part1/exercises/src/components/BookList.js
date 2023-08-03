@@ -1,3 +1,6 @@
+import React from "react";
+import classes from "./BookList.module.css";
+
 export default function BookList() {
   let pageTitle = "Favorite Books";
   let book1 =
@@ -8,7 +11,7 @@ export default function BookList() {
     "https://m.media-amazon.com/images/I/51l2jSmOxpS._SY291_BO1,204,203,200_QL40_FMwebp_.jpg";
 
   return (
-    <div>
+    <div className={classes.bookDiv}>
       <h3>{pageTitle}</h3>
       <img src={book1} alt="Educated Book by Tara Westover" />
       <img src={book2} alt="Where the Crawdads Sing by Delia Owens" />

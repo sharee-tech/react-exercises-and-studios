@@ -10,7 +10,7 @@ class MovieList extends React.Component {
       "Barbie",
     ];
     return (
-      <div>
+      <div className={classes.movieDiv}>
         <h3 className={classes.movieHeading}>Movies I Watched This Month</h3>
         <ol>
           <li className={classes.movieText}>{movies[0]}</li>

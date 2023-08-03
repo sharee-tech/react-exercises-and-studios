@@ -3,9 +3,11 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-style: italic;
+  text-align: left;
 }
 
 .choresHeading {
   color: black;
-  text-decoration: unerline;
+  text-decoration: underline;
+  text-align: left;
 }

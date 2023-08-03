@@ -1,3 +1,6 @@
+import React from "react";
+import classes from "./HobbyLinks.module.css";
+
 export default function HobbyLinks() {
   const hobbyLinks = [
     "https://www.earthtrekkers.com/best-hikes-in-rocky-mountain-national-park/",
@@ -5,11 +8,19 @@ export default function HobbyLinks() {
     "https://anthology-magazine.com/arts/pipe-organs/",
   ];
   return (
-    <div>
-      <h3>My Hobbies</h3>
-      <a href={hobbyLinks[0]}>Hiking in Rocky Mountain National Park</a>
-      <a href={hobbyLinks[1]}>Hiking in Big Cottonwood Canyon</a>
-      <a href={hobbyLinks[0]}>Amazing Pipe Organs</a>
+    <div className={classes.hobbiesDiv}>
+      <h3 className={classes.hobbiesHeading}>My Hobbies</h3>
+      <a className={classes.hobbiesText} href={hobbyLinks[0]}>
+        Hiking in Rocky Mountain National Park
+      </a>
+      <br></br>
+      <a className={classes.hobbiesText} href={hobbyLinks[1]}>
+        Hiking in Big Cottonwood Canyon
+      </a>
+      <br></br>
+      <a className={classes.hobbiesText} href={hobbyLinks[0]}>
+        Amazing Pipe Organs
+      </a>
     </div>
   );
 }
