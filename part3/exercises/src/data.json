@@ -1,0 +1,32 @@
+[
+  {
+    "resort": "Beaver",
+    "baseElevation": 7200,
+    "skiLifts": 4,
+    "runs": 47
+  },
+  {
+    "resort": "Alta",
+    "baseElevation": 8530,
+    "skiLifts": 7,
+    "runs": 116
+  },
+  {
+    "resort": "Powder Mountain",
+    "baseElevation": 6900,
+    "skiLifts": 6,
+    "runs": 154
+  },
+  {
+    "resort": "Brighton",
+    "baseElevation": 8755,
+    "skiLifts": 4,
+    "runs": 66
+  },
+  {
+    "resort": "Sundance",
+    "baseElevation": 6100,
+    "skiLifts": 5,
+    "runs": 44
+  }
+]
