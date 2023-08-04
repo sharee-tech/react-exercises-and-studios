@@ -6,8 +6,8 @@ class RecipeDescription extends React.Component {
     return (
       <div>
         <div>
-          <h1>Recipe Title</h1>
-          <p>Short recipe description</p>
+          <h1>CASSAVA FLOUR BROWNIES</h1>
+          <p>Paleo & Nut Free</p>
         </div>
         <RecipeAuthor />
       </div>
